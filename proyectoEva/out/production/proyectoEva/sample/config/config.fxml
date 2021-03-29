@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane fx:id="stackPane" style="-fx-background-color: #1d1d1d;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.config.Config">
+   <children>
+      <AnchorPane fx:id="anchorPane" prefHeight="360.0" prefWidth="480.0">
+         <children>
+            <Label layoutX="226.0" layoutY="40.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
